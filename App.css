@@ -1,0 +1,150 @@
+.fullsection {
+  background-color: gainsboro;
+  width: 700px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.section1 {
+  background-color: #24400f;
+  color: white;
+  width: 99%;
+  height: 100px;
+  border: black 2px solid;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-direction: row;
+  gap: 30px;
+}
+.addbtn {
+  background-color: #24400f;
+  color: white;
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+  margin: 20px;
+}
+.box {
+  margin: 30px;
+  border: 1px black solid;
+  width: 550px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.544);
+  display: none;
+}
+.boxbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+}
+.boxbtn button {
+  width: 50px;
+  border-radius: 5px;
+  background-color: #24400f;
+  color: white;
+}
+.selectanddate {
+  display: flex;
+  justify-content: space-between;
+}
+.select select {
+  width: 200px;
+}
+.date input {
+  width: 200px;
+}
+.todolist {
+  margin-top: 30px;
+  /* padding-right: 10px; */
+  margin: 30px;
+  width: 90%;
+  border: #24400f 2px solid;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+
+  position: relative;
+}
+.todolist .icons {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  right: 10px;
+  gap: 30px;
+}
+.priority {
+  width: 20px;
+  height: 20px;
+  border-radius: 90%;
+}
+.form input {
+  padding: 5px;
+  border-radius: 10px;
+  border: #24400f 1px solid;
+}
+.form select {
+  padding: 5px;
+  border-radius: 10px;
+}
+.status {
+  background-color: grey;
+  width: 80%;
+
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  color: black;
+}
+.today:hover {
+  background-color: #24400f;
+  color: white;
+}
+.all:hover {
+  background-color: #24400f;
+  color: white;
+  border-radius: 10px 0 0 10px;
+}
+.overdue:hover {
+  background-color: #24400f;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+.pending:hover {
+  background-color: #24400f;
+  color: white;
+}
+.today {
+  width: 33.3%;
+  border-right: 1px white solid;
+  border-left: 1px white solid;
+}
+h3 {
+  margin: 12px;
+  margin-left: 50px;
+}
+.pending {
+  width: 33.3%;
+  border-right: 1px white solid;
+}
+.overdue {
+  width: 33.3%;
+}
+.all {
+  width: 33.3%;
+}
